@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/sdk';
+import { ChainId } from 'soulswap-sdk';
 
 export const NETWORK_LABEL = {
   [ChainId.MAINNET]: 'Ethereum',

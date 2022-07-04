@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/sdk';
+import { ChainId } from 'soulswap-sdk';
 
 // import iconFTM from 'assets/imgs/ftm.png';
 import iconWFTM from 'assets/imgs/wftm.png';

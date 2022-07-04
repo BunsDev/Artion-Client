@@ -25,7 +25,7 @@ import {
   CartesianGrid,
   Line,
 } from 'recharts';
-import { ChainId } from '@sushiswap/sdk';
+import { ChainId } from 'soulswap-sdk';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { useWeb3React } from '@web3-react/core';
@@ -107,7 +107,7 @@ const filters = ['Trade History', 'Transfer History'];
 
 // eslint-disable-next-line no-undef
 const ENV = process.env.REACT_APP_ENV;
-const CHAIN = ENV === 'MAINNET' ? ChainId.FANTOM : ChainId.FANTOM_TESTNET;
+const CHAIN = ENV === 'MAINNET' ? 250 : 250_TESTNET;
 
 const NFTItem = () => {
   const dispatch = useDispatch();
@@ -293,8 +293,8 @@ const NFTItem = () => {
     return (
       account &&
       (ENV === 'MAINNET'
-        ? chainId === ChainId.FANTOM
-        : chainId === ChainId.FANTOM_TESTNET)
+        ? chainId === 250
+        : chainId === 250_TESTNET)
     );
   };
 

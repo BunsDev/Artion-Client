@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/sdk';
+import { ChainId } from 'soulswap-sdk';
 
 import { calculateGasMargin, getHigherGWEI } from 'utils';
 import { Contracts } from 'constants/networks';
